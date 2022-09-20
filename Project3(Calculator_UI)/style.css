@@ -3,11 +3,11 @@ body{
 }
 table{
     margin:110px 50px 30px 500px;
-    background-color: rgb(47, 70, 47);
+    background-color: pink;
     
 }
 table,td {
-        border: 3px solid black;
+        border: 3px solid grey;
         text-align: center;
      }
 td{
@@ -17,38 +17,22 @@ td{
 }
 #calc{
  width: 250px;
-border: 3px solid black;
+border: 3px solid grey;
 border-radius: 3px;
 padding: 20px;
 margin: auto;
 }
 button{
     font-size:20px;
-    height:40px;
-    width:40px;
+    height:60px;
+    width:60px;
 }
 
 
-@media only screen and (max-width: 600px) {
-table{
-    margin-left:160px;
-}
-}
-@media only screen and (max-width: 800px) {
-table{
-    margin-right:0px;
-    margin-left:180px;
-}
-}
-@media only screen and (max-width: 1000px) {
-table{
-    
-    margin-left:190px;
-}
-}
-@media only screen and (max-width: 1200px) {
-    table{
-        
-        margin-left:190px;
-    }
-    }
+
+.button1 {font-size: 20px;}
+.button2 {font-size: 20px;}
+.button3 {font-size: 20px;}
+.button4 {font-size: 20px;}
+.button5 {font-size: 20px;}
+.button6 {color:green; width:300px;}
